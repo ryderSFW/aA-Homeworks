@@ -24,6 +24,9 @@ class Map
             @mapping[find_key_idx(key)] = [key, value]
         end
     end
+    def delete(key)
+        @mapping.delete_at(find_key_idx(key))
+    end
 end
 
 if __FILE__ == $PROGRAM_NAME
