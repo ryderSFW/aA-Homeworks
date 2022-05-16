@@ -39,4 +39,6 @@ if __FILE__ == $PROGRAM_NAME
     map.show
     map.get('monkey')
     map.get('seahorse')
+    map.delete('monkey')
+    map.show
 end
